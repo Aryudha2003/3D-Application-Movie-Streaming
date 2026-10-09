@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoCinema 3D</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="bg3d"></canvas>
+
+    <main class="app-shell">
+      <header class="hero">
+        <p class="badge">Movie Streaming • 3D Experience</p>
+        <h1>NeoCinema</h1>
+        <p class="subtitle">
+          Jelajahi film favoritmu dalam nuansa 3D dengan animasi aestetik yang hidup.
+        </p>
+      </header>
+
+      <section class="content-grid">
+        <article class="player-card glass">
+          <div class="player-top">
+            <h2>Now Playing</h2>
+            <span class="live-dot">LIVE</span>
+          </div>
+          <div class="player-frame">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Movie Trailer"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="controls">
+            <button>▶ Putar</button>
+            <button>⏸ Jeda</button>
+            <button>＋ Tambah Watchlist</button>
+          </div>
+        </article>
+
+        <aside class="recommendations glass">
+          <h3>Rekomendasi Trending</h3>
+          <ul>
+            <li>
+              <span>Cyber Aurora</span>
+              <small>Sci‑Fi • 4K</small>
+            </li>
+            <li>
+              <span>Neon Drift</span>
+              <small>Action • Dolby Atmos</small>
+            </li>
+            <li>
+              <span>Moonlight Script</span>
+              <small>Drama • HDR</small>
+            </li>
+            <li>
+              <span>Pixel Heist</span>
+              <small>Thriller • IMAX</small>
+            </li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
